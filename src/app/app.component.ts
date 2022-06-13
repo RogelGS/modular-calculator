@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'modular-calculator';
+  title = 'Aplicación de Calculadora';
+  addResult: string = "";
+
+  getResult(result: string) {
+    this.addResult = result; 
+  }
 }
